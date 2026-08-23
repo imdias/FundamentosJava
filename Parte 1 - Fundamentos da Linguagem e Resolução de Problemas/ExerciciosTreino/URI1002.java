@@ -10,5 +10,7 @@ public class URI1002{
 		double area = 3.14159 * Math.pow(raio, 2);
 
 		System.out.printf("A=%.4f\n", area);
+
+		teclado.close();
 	}
 }
