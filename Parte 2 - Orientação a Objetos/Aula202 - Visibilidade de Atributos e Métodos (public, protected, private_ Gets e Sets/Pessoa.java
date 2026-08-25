@@ -3,6 +3,19 @@ public class Pessoa {
     private String email;
     private float salario;
 
+    // Construtor
+    public Pessoa(String nome, String email, float salario){
+        this.nome = nome;
+        this.email = email;
+        this.salario = salario;
+    }
+
+    public Pessoa(String nome, float salario){
+        this.nome = nome;
+        this.email = "nao fornecido";
+        this.salario = salario;
+    }
+
     public void setNome(String nome){
         this.nome = nome;
     }
