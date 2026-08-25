@@ -10,3 +10,29 @@ public class AppPessoa{
         p2.exibirDados();
     }
 }
+
+class Pessoa {
+    private String nome;
+    private String email;
+    private double salario;
+
+    Pessoa(String nome, String email, double salario) {
+        this.nome = nome;
+        this.email = email;
+        this.salario = salario;
+    }
+
+    Pessoa(String nome, double salario) {
+        this(nome, "", salario);
+    }
+
+    void exibirDados() {
+        System.out.println("Nome: " + nome + ", Email: " + email + ", Salario: " + salario);
+    }
+
+    void aumentarSalario(double percPercentual) {
+        if (percPercentual > 0) {
+            salario += salario * percPercentual / 100.0;
+        }
+    }
+}
