@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/parte2-OrientacaoObjetos/Aula201 - Conceitos de Orientação a Objetos (classes, atributos, métodos)/Aula201 - Conceitos de Orientação a Objetos (classes, atributos, métodos).iml" filepath="$PROJECT_DIR$/parte2-OrientacaoObjetos/Aula201 - Conceitos de Orientação a Objetos (classes, atributos, métodos)/Aula201 - Conceitos de Orientação a Objetos (classes, atributos, métodos).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/FundamentosJava.iml" filepath="$PROJECT_DIR$/.idea/FundamentosJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parte2-OrientacaoObjetos/aula204-resolvendoProblemas/aula204-resolvendoProblemas.iml" filepath="$PROJECT_DIR$/parte2-OrientacaoObjetos/aula204-resolvendoProblemas/aula204-resolvendoProblemas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parte1-fundamentosDaLinguagem/parte1-fundamentosDaLinguagem.iml" filepath="$PROJECT_DIR$/parte1-fundamentosDaLinguagem/parte1-fundamentosDaLinguagem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parte2-OrientacaoObjetos/parte2-OrientacaoObjetos.iml" filepath="$PROJECT_DIR$/parte2-OrientacaoObjetos/parte2-OrientacaoObjetos.iml" />
+    </modules>
+  </component>
+</project>
