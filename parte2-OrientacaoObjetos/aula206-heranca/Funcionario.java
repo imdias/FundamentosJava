@@ -13,4 +13,9 @@ public class Funcionario extends Pessoa{
 		public float getSalario(){
 			return this.salario;
 		}
+
+		@Override
+		public String toString(){
+			return "FUNCIONARIO: " + getNome() + " (" + getEmail() + ") R$ " + this.salario;
+		}
 }

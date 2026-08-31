@@ -4,7 +4,7 @@ public class Pessoa{
 
 	public Pessoa(String nome, String email){
 		this.nome = nome;
-		this.email = nome;
+		this.email = email;
 	}
 
 	public String getNome(){
@@ -22,4 +22,10 @@ public class Pessoa{
 	public void setEmail(String email){
 		this.email = email;
 	}
+
+	@Override
+	public String toString(){
+		return "PESSOA: " + this.nome + " (" + this.email + ")";
+	}
+	
 }
