@@ -16,7 +16,10 @@ public class Funcionario extends Pessoa{
 
 		@Override
 		public String toString(){
-			return super.toString() + " - R$ " + this.salario;
+			//return super.toString() + " - R$ " + this.salario;
 			//return "FUNCIONARIO: " + getNome() + " (" + getEmail() + ") R$ " + this.salario;
+
+			// Chamando os métodos e atributos devido ao protected
+			return "FUNCIONARIO: " + super.nome + " (" + super.email + ") R$ " + this.salario;
 		}
 }

@@ -1,6 +1,6 @@
 public class Pessoa{
-	private String nome;
-	private String email;
+	protected String nome;
+	protected String email;
 
 	public Pessoa(String nome, String email){
 		this.nome = nome;
