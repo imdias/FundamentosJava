@@ -16,6 +16,7 @@ public class Funcionario extends Pessoa{
 
 		@Override
 		public String toString(){
-			return "FUNCIONARIO: " + getNome() + " (" + getEmail() + ") R$ " + this.salario;
+			return super.toString() + " - R$ " + this.salario;
+			//return "FUNCIONARIO: " + getNome() + " (" + getEmail() + ") R$ " + this.salario;
 		}
 }
