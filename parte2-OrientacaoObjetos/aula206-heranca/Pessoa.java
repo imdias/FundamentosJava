@@ -12,7 +12,7 @@ public class Pessoa{
 	}
 
 	public String getEmail(){
-		return this.nome;
+		return this.email;
 	}
 
 	public void setNome(String nome){
