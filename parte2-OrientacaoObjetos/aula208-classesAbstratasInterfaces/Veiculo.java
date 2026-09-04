@@ -24,5 +24,6 @@ public abstract class Veiculo{
 		this.valorDiaria = valorDiaria;
 	}
 
+	// Eu obrigo todo mundo a calcular a lógica abaixo
 	public abstract float calcularAluguel(int qtdeDias);
 }
