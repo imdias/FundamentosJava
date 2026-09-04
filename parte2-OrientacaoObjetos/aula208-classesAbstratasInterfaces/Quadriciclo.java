@@ -1,12 +1,12 @@
 public class Quadriciclo extends Veiculo{
 	private float fatorRisco;
-	private float valorDiaria;
 
-	public Quadriciclo(String modelo, String placa, float fatorRisco){
-		super(modelo,placa);
+	public Quadriciclo(String modelo, String placa, float valorDiaria ,float fatorRisco){
+		super(modelo,placa,valorDiaria);
 		this.fatorRisco = fatorRisco;
 	}
-	public float calcularAluguel(float qtdeDias){
-		return qtdeDias * valorDiaria;
+
+	public float calcularAluguel(int qtdeDias){
+		return qtdeDias * super.getValorDiaria() + fatorRisco;
 	}
 }

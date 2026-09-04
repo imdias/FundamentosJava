@@ -1,12 +1,10 @@
 public class Carro extends Veiculo{
-	private float valorDiaria;
 
 	public Carro(String modelo, String placa, float valorDiaria){
-		super(modelo,placa);
-		this.valorDiaria = valorDiaria;
+		super(modelo,placa,valorDiaria);
 	}
 
 	public float calcularAluguel(int qtdeDias){
-		return qtdeDias * valorDiaria;
+		return qtdeDias * super.getValorDiaria();
 	}
 }
