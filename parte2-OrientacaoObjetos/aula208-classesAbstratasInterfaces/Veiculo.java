@@ -1,4 +1,4 @@
-public class Veiculo{
+public abstract class Veiculo{
 	private String modelo;
 	private String placa;
 
@@ -13,4 +13,6 @@ public class Veiculo{
 	public String getPlaca(){
 		return this.placa;
 	}
+
+	public abstract float calcularAluguel(int qtdeDias);
 }
