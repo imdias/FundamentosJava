@@ -3,21 +3,20 @@ import java.util.Collections;
 
 public class MeuTesteOrdenado{
 	public static void main(String args[]){
-		ArrayList<String> listaNomes = new ArrayList<String>();
+		ArrayList<Player> lista = new ArrayList<Player>();
 
-		listaNomes.add("Zelia");
-		listaNomes.add("Isidro");
-		listaNomes.add("Adriano");
-		listaNomes.add("Jose");
-		listaNomes.add("Pedro");
+		lista.add(new Player(1, "VenomousInk87", 100.0f));
+		lista.add(new Player(2, "BullDog897", 87.5f));
+		lista.add(new Player(3, "PlayerFromHaven", 50.0f));
+		lista.add(new Player(4, "PhonicDyno", 200.6f));
 
-		System.out.print(" ***** Imprimindo a lista ****\n");
+		System.out.print(" ***** Imprimindo a lista de jogadores ****\n");
 
 		// Ordenando lista com o uso do sort
-		Collections.sort(listaNomes);
+		// Collections.sort(listaNomes);
 
-		for (String s: listaNomes) {
-			System.out.print("Nome = " + s + " \n");
+		for (Player p: lista) {
+			System.out.print("Nome = " + p + " \n");
 		}
 
 		/*String s1 = "Jose";
