@@ -9,11 +9,12 @@ public class MeuTesteOrdenado{
 		lista.add(new Player(2, "BullDog897", 87.5f));
 		lista.add(new Player(3, "PlayerFromHaven", 50.0f));
 		lista.add(new Player(4, "PhonicDyno", 200.6f));
-
+		lista.add(new Player(5, "Newbie1786", 50.0f));
+		
 		System.out.print(" ***** Imprimindo a lista de jogadores ****\n");
 
 		// Ordenando lista com o uso do sort
-		// Collections.sort(listaNomes);
+		Collections.sort(lista);
 
 		for (Player p: lista) {
 			System.out.print("Nome = " + p + " \n");

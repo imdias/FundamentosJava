@@ -1,4 +1,4 @@
-public class Player{
+public class Player implements Comparable<Player>{
 	private int id;
 	private String username;
 	private float points;
@@ -31,6 +31,18 @@ public class Player{
 
 	public float getPoints(){
 		return this.points;
+	}
+
+	public int compareTo(Player other){
+		if (this.points > other.points) {
+			return -1;
+		}
+		else if (this.points < other.points) {
+			return 1;
+		}
+		else{
+			return this.username.compareTo(other.username);
+		}
 	}
 
 	public String toString(){
