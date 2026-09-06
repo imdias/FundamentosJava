@@ -1,10 +1,5 @@
 public class UsandoBusiness{
-	public static void main(String args[]){
-		try{
+	public static void main(String args[]) throws Exception{
 			MeuBusiness.metodoLancador(null);	
-		}
-		catch(Exception ex){
-			System.out.print("Erro - " + ex.getMessage());
-		}
 	}
 }
