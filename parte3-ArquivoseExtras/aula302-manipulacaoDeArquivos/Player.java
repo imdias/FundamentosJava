@@ -1,4 +1,4 @@
-public class Player{
+public class Player implements java.io.Serializable{
 	private int id;
 	private String name;
 	private float score;
