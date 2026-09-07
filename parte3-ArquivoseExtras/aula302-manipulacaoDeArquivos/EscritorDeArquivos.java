@@ -7,17 +7,19 @@ public class EscritorDeArquivos{
 		try{
 			Scanner teclado = new Scanner(System.in);
 			File tmpArquivo = new File("arquivo.txt");
-			FileWriter wtArquivo = new FileWriter(tmpArquivo);
+			FileWriter wtArquivo = new FileWriter(tmpArquivo, true);
 
-			String texto;
-			do{
-				System.out.print("Digite algo (FIM para sair): ");
-				texto = teclado.nextLine();
-				if (!texto.equals("FIM")) {
-					wtArquivo.write(texto + "\n");		
-				}				
+			int inicio, fim;
+			System.out.print("Digite o id inicial: ");
+			inicio = teclado.nextInt();
+			System.out.print("Digite o id final: ");
+			fim = teclado.nextInt();
+			
+			for (int tmp = inicio; tmp <= fim; tmp++ ) {
+				Player p = new Player(tmp, "Player_"+tmp, tmp);
+				wtArquivo.write(p+"\n");
 			} 
-			while(!texto.equals("FIM"));
+			//while(!texto.equals("FIM"));
 			wtArquivo.close();
 
 		}
