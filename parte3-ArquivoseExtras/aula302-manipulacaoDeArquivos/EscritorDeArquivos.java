@@ -19,7 +19,6 @@ public class EscritorDeArquivos{
 				Player p = new Player(tmp, "Player_"+tmp, tmp);
 				wtArquivo.write(p+"\n");
 			} 
-			//while(!texto.equals("FIM"));
 			wtArquivo.close();
 
 		}
