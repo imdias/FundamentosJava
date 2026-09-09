@@ -15,7 +15,12 @@ public class MinhaAplicacao{
 
 		System.out.println("Fim do programa");
 		*/
-		o.outroMetodoDoObjeto((e,f) -> System.out.println("Valor do E = " + e + " valor do F = " + f), Integer.parseInt(args[0]), Float.parseFloat(args[1]));
+		o.outroMetodoDoObjeto((e,f) -> {
+											System.out.println("Valor do E = " + e); 
+											System.out.println("Valor do F = " + f);
+										},
+											Integer.parseInt(args[0]), 
+											Float.parseFloat(args[1]));
 		
 	}
 }
