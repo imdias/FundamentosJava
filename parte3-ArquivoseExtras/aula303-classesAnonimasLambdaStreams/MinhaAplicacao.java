@@ -11,11 +11,6 @@ public class MinhaAplicacao{
 		});
 		System.out.println("Fim do programa");
 
-		JButton btn = new JButton();
-		btn.addActionListener(new ActionListener(){
-			public void actionPerformed(ActionEvent evt){
-				System.out.println("Botão apertado");
-			}
-		});
+		
 	}
 }
