@@ -1,7 +1,7 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class URI1006{
+public class URI1002{
     public static void main(String args[]){
         Scanner teclado = new Scanner(System.in);
 
@@ -13,7 +13,7 @@ public class URI1006{
         
         media = (notaA * 2 + notaB * 3 + notaC * 5) / 10;
 
-        System.out.printf("MEDIA = %.2f%n", media);
+        System.out.printf("MEDIA = %.1f%n", media);
 
     }
 }
