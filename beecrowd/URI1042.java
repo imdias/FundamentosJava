@@ -8,23 +8,40 @@ public class URI1042{
 		a = teclado.nextInt();
 		b = teclado.nextInt();
 		c = teclado.nextInt();
-		if(a > b){
-			aux = a;
-			a = b;
-			b = aux;
+
+		if (a < b && a < c) {
+			System.out.println(a);
+			if (b < c) {
+				System.out.println(b);
+				System.out.println(c);				
+			} else{
+				System.out.println(c);
+				System.out.println(b);
+			}	
+		} else if (b < c) {
+			System.out.println(b);
+			if (a < c) {
+				System.out.println(a);
+				System.out.println(c);
+			} else {
+				System.out.println(c);
+				System.out.println(a);
+			}
+		} else {
+			System.out.println(c);
+			if (a < b) {
+				System.out.println(a);
+				System.out.println(b);				
+			} else {
+				System.out.println(b);
+				System.out.println(a);
+			}
 		}
-		if(b > c){
-			aux = b;
-			b = c;
-			c = aux;
-		}
-		if(a > b){
-			aux = a;
-			a = b;
-			b = aux;
-		}
+
+		System.out.println("");
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);
+		
 	}
 }
